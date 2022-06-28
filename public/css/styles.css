@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1{
+    font-size: 22px;
+    text-align: center;
+    margin: 2em;
+}
+h2{
+    font-size: 22px;
+    padding: 1em;
+    color: wheat;
+}
+
+/* --------------- HEADER  -------------- */
+header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: black;
+    font-size: 25px;
+    color: wheat;
+}
+
+/* ------------------ CONTAINERS -----------------*/
+.sect {
+    background-color: grey;
+    margin: 1em;
+}
+
+/* ---- POOL DE MENSAJES ----*/
+#msgsPool{
+    background-color: grey;
+    margin: 1em;
+    margin: 0;
+}
+#msgsPool .msgsPool-user{
+    font-weight: bold;
+    color: blue;
+}
+#msgsPool .msgsPool-date{
+    color: brown;
+}
+#msgsPool .msgsPool-msg{
+    font-style: italic;
+    color: green;
+}
+
+#msgForm{
+    padding: 1em;
+}
